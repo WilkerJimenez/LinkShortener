@@ -1,15 +1,20 @@
 .app-divBody {
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: 80% 20%;
+  column-gap: 10px;
+  padding: 10px;
   width: 100%;
   height: 100vh;
 }
 
 .app-grid1 {
-  grid-column-start: 1;
-  grid-column: 1/10;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .app-grid2 {
-  padding: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }

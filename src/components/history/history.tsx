@@ -7,7 +7,9 @@ function History() {
     return (
         <>
             <div className='history-divBody'>
-                <a className='history-a'>history</a>
+                <div className='history-container'>
+                    <a className='history-a'>history</a>
+                </div>
             </div>
         </>
     )
